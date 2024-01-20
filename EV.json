@@ -1,53 +1,129 @@
 {
-  "name": "Way of the Electric Veined",
-  "description": "As a practitioner of this Monastic Tradition, you have learned to transform the ki inside your body into something you consider far deadlier— lightning. Way of the Electric Veined monks are a tempest, fast and decisive on the battlefield, ruthless with the damage they inflict against foes.",
-  "features": [
-    {
-      "level": 3,
-      "name": "Internal Storm",
-      "description": "The ki that flows through your body has become electric. At 3rd level, when you choose this Monastic Tradition, you gain the following enhancements to your Martial Arts:",
-      "enhancements": [
-        {
-          "name": "Electric Dash",
-          "description": "When you use your Step of the Wind to dash, you are capable of moving through opponent's spaces dealing Lightning Damage equivalent to your Martial Arts dice to each opponent you move through. You can only deal damage to each opponent in this way once per turn."
-        },
-        {
-          "name": "Lightning Reflexes",
-          "description": "While you're using Patient Defense, if an enemy within 5 ft. of you makes a melee attack against you, you may use your reaction to make one Unarmed Strike against them."
-        },
-        {
-          "name": "Rain of Lightning",
-          "description": "When you successfully make an attack with Flurry of Blows, you can choose for your unarmed strikes to deal Lightning Damage or Thunder Damage instead of Bludgeoning Damage."
-        }
-      ]
-    },
-    {
-      "level": 3,
-      "name": "Flash of Lightning",
-      "description": "At third level, you additionally gain a certain awareness to the area around you, allowing you to react exceptionally quick. You may double your Dexterity modifier when calculating your Initiative bonus. Additionally, while you are conscious, you cannot be Surprised."
-    },
-    {
-      "level": 6,
-      "name": "Thunder Pulse",
-      "description": "At 6th level you have become attuned to both thunder and lightning. When you use your Stunning Strike, you may expend an additional 1 ki point to give your opponent disadvantage on their saving throw. As a part of this attack, you release a 15 ft. pulse of thunder originating from yourself. Any opponent in range must make a Constitution save. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half damage and isn't pushed. The creature affected by Stunning Strike does not take this damage."
-    },
-    {
-      "level": 11,
-      "name": "Lightning Strike",
-      "description": "At 11th level, as an action, you can expend 3 ki points to cast *Lightning Bolt* without providing material components. You may spend additional damage die to increase the damage to a limit of 10d6 (5 ki)."
-    },
-    {
-      "level": 17,
-      "name": "Fulmination",
-      "description": "At 17th level, your body is a battery and conduit for lightning. You feel it rushing through your veins at any given moment. You are capable of unleashing the full potential of your strength as a bonus action by expending 5 ki points and undergoing a transformation. This transformation lasts a minute. After it is complete, you gain one point of exhaustion. You regain this ability after a long rest.",
-      "transformation": {
-        "benefits": [
-          "You gain the benefits of your Step of the Wind and Electric Dash for the duration.",
-          "You gain an additional attack.",
-          "You gain a flight speed equal to your movement speed.",
-          "If an opponent starts their turn within 5 ft. of you, they take Lightning Damage equal to half your monk level rounded down."
-        ]
-      }
-    }
-  ]
+	"_meta": {
+		"sources": [
+			{
+				"json": "ElectricVeinedMonk",
+				"abbreviation": "WotEV",
+				"full": "Way of the Electric Veined",
+				"authors": [
+					"YourNameHere"
+				],
+				"version": "1.0.0",
+				"color": "your_color_code_here",
+				"url": "your_homebrewery_url_here",
+				"targetSchema": "2.6.2"
+			}
+		],
+		"dateAdded": 1693386789,
+		"dateLastModified": 1693386789,
+		"_dateLastModifiedHash": "your_hash_here"
+	},
+	"subclass": [
+		{
+			"name": "Way of the Electric Veined",
+			"source": "ElectricVeinedMonk",
+			"className": "Monk",
+			"classSource": "PHB",
+			"shortName": "Electric Veined Monk",
+			"subclassFeatures": [
+				"Internal Storm|Monk||Electric Veined Monk|ElectricVeinedMonk|3",
+				"Flash of Lightning|Monk||Electric Veined Monk|ElectricVeinedMonk|3",
+				"Thunder Pulse|Monk||Electric Veined Monk|ElectricVeinedMonk|6",
+				"Lightning Strike|Monk||Electric Veined Monk|ElectricVeinedMonk|11",
+				"Fulmination|Monk||Electric Veined Monk|ElectricVeinedMonk|17"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Internal Storm",
+			"source": "ElectricVeinedMonk",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 1,
+			"subclassShortName": "Electric Veined Monk",
+			"subclassSource": "ElectricVeinedMonk",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"The ki that flows through your body has become electric. At 3rd level, when you choose this Monastic Tradition, you gain the following enhancements to your Martial Arts:",
+				"**Electric Dash.** When you use your Step of the Wind to dash, you are capable of moving through opponent's spaces dealing Lightning Damage equivalent to your Martial Arts dice to each opponent you move through. You can only deal damage to each opponent in this way once per turn.",
+				"**Lightning Reflexes.** While you're using Patient Defense, if an enemy within 5 ft. of you makes a melee attack against you, you may use your reaction to make one Unarmed Strike against them.",
+				"**Rain of Lightning.** When you successfully make an attack with Flurry of Blows, you can choose for your unarmed strikes to deal Lightning Damage or Thunder Damage instead of Bludgeoning Damage."
+			]
+		},
+		{
+			"name": "Flash of Lightning",
+			"source": "ElectricVeinedMonk",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 1,
+			"subclassShortName": "Electric Veined Monk",
+			"subclassSource": "ElectricVeinedMonk",
+			"level": 3,
+			"header": 2,
+			"entries": [
+				"At third level, you additionally gain a certain awareness to the area around you, allowing you to react exceptionally quick. You may double your Dexterity modifier when calculating your Initiative bonus. Any items or feats that increase your Initiative do not gain this effect.",
+				"Additionally, while you are conscious, you cannot be Surprised."
+			]
+		},
+		{
+			"name": "Thunder Pulse",
+			"source": "ElectricVeinedMonk",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 1,
+			"subclassShortName": "Electric Veined Monk",
+			"subclassSource": "ElectricVeinedMonk",
+			"level": 6,
+			"header": 2,
+			"consumes": {
+				"name": "Ki",
+				"amount": 1
+			},
+			"entries": [
+				"At 6th level you have become attuned to both thunder and lightning. When you use your Stunning Strike, you may expend an additional 1 ki point to give your opponent disadvantage on their saving throw.",
+				"As a part of this attack, you release a 15 ft. pulse of thunder originating from yourself. Any opponent in range must make a Constitution save. On a failed save, a creature takes 2d8 thunder damage and is pushed 10 feet away from you. On a successful save, the creature takes half damage and isn't pushed. The creature affected by Stunning Strike does not take this damage."
+			]
+		},
+		{
+			"name": "Lightning Strike",
+			"source": "ElectricVeinedMonk",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 1,
+			"subclassShortName": "Electric Veined Monk",
+			"subclassSource": "ElectricVeinedMonk",
+			"level": 11,
+			"consumes": {
+				"name": "Ki",
+				"amount": 3
+			},
+			"entries": [
+				"At 11th level, as an action, you can expend 3 ki points to cast *Lightning Bolt* without providing material components. You may spend additional damage die to increase the damage to a limit of 10d6 (5 ki)."
+			]
+		},
+		{
+			"name": "Fulmination",
+			"source": "ElectricVeinedMonk",
+			"className": "Monk",
+			"classSource": "PHB",
+			"page": 1,
+			"subclassShortName": "Electric Veined Monk",
+			"subclassSource": "ElectricVeinedMonk",
+			"level": 17,
+			"consumes": {
+				"name": "Ki",
+				"amount": 5
+			},
+			"entries": [
+				"At 17th level, your body is a battery and conduit for lightning. You feel it rushing through your veins at any given moment. You are capable of unleashing the full potential of your strength as a bonus action by expending 5 ki points and undergoing a transformation as your body becomes shrouded with electricity:",
+				"- You gain the benefits of your Step of the Wind and Electric Dash for the duration.",
+				"- You gain an additional attack.",
+				"- You gain a flight speed equal to your movement speed.",
+				"- If an opponent starts their turn within 5 ft. of you they take Lightning Damage equal half your monk level rounded down.",
+				"This transformation lasts a minute. After it is complete, you gain one point of exhaustion. You regain this ability after a long rest."
+			]
+		}
+	]
 }
