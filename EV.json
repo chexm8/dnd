@@ -44,7 +44,7 @@
 			"subclassSource": "ElectricVeined",
 			"level": 3,
 			"entries": [
-				"The ki that flows through your body has become electric. At 3rd level, when you choose this Monastic Tradition, you gain the following enhancements to your Martial Arts:"
+				"The ki that flows through your body has become electric. At 3rd level, when you choose this Monastic Tradition, you gain the following enhancements to your Martial Arts"
 				{
 					"type": "refSubclassFeature",
 					"subclassFeature": "Electric Dash|Monk||Electric Veined|ElectricVeined|3"
