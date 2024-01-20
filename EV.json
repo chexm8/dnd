@@ -9,14 +9,14 @@
 					"YourNameHere"
 				],
 				"version": "1.0.0",
-				"color": "your_color_code_here",
-				"url": "your_homebrewery_url_here",
+				"color": "e7f38f",
+				"url": "https://www.gmbinder.com/share/-L_08dGfoIQhEMZbr400",
 				"targetSchema": "2.6.2"
 			}
 		],
 		"dateAdded": 1693386789,
 		"dateLastModified": 1693386789,
-		"_dateLastModifiedHash": "your_hash_here"
+		"_dateLastModifiedHash": "9377fc5859"
 	},
 	"subclass": [
 		{
